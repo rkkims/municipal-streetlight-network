@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "municipal-streetlight-network"
+version = "0.1.0"
+description = "Public municipal street-light data inspection, normalization, QA, and tracing"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["pandas", "geopandas", "shapely", "pyproj", "networkx", "requests", "pyyaml", "jupyter"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

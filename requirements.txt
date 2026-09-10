@@ -1,0 +1,2 @@
+# Dependency list is maintained in pyproject.toml. No installation performed.
+-e .
