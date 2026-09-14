@@ -83,7 +83,6 @@ python scripts/run_trace.py
 ## Application materials
 
 - [Case study](docs/application-case-study.md)
-- [Application note](docs/application-note.md)
 - [Source inventory](docs/data-sources.md)
 - [Limitations](docs/limitations.md)
 - [Network model](docs/network-model.md)
