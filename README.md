@@ -15,7 +15,7 @@ Municipal sources → ingest → inspect → normalize → QA → graph → trac
 | --- | --- |
 | Acquire municipal street-light data | Source inventory and reproducible downloads for Vancouver and DNV |
 | Normalize incoming data | YAML mappings, reusable GeoPandas normalizer |
-| Build a repeatable import script | `scripts/normalize_dnv.py` and `scripts/normalize_vancouver.py` use the same package logic |
+| Build a repeatable import script | `scripts/normalize_dnv.py` and `scripts/normalize_vancouver.py` sharing same import logic |
 | Work with GIS formats and CRS | Vancouver GeoJSON/EPSG:4326; DNV FGDB/EPSG:26910; GeoPackage and KML inspection |
 | Perform network tracing | NetworkX conduit graph and DNV network trace output |
 | Use QGIS and produce exhibits | Manual QGIS filtering, labels, layouts, and map exports |
