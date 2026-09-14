@@ -63,11 +63,11 @@ visual check of the normalized inventory and network interpretation.
 
 ![DNV network example](docs/images/dnv_trace_network_example.png)
 
-The close-up map shows a small gap that could affect whether two features are
-treated as connected. `LGTLT01611` and the end of `LGTCON00377` look connected
-on the map, but their recorded locations are 0.0486 m apart. We show the gap
-for review and keep the original data unchanged instead of moving features
-automatically.
+The close-up map reveals something that is not obvious at first glance:
+`LGTLT02801` is classified as unreachable even though it appears to be
+connected to the network. When we zoom in, we find a slight 0.0486 m gap
+between `LGTLT01611` and `LGTCON00377`. We show this finding for review and
+keep the original data unchanged.
 
 ![DNV conduit gap](docs/images/dnv_gap_LGTLT01611_LGTCON00377.png)
 
