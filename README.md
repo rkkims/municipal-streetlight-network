@@ -46,9 +46,9 @@ inspection task.
 
 ## Assumptions and limits
 
-`Network_Id` is used as an exploratory grouping signal, then checked against
+For DNV, `Network_Id` is used as an exploratory grouping signal, then checked against
 conduit geometry. Exact endpoint matching is conservative and exposes small
-positional gaps; no arbitrary snapping or automatic gap repair is applied.
+positional gaps; no snapping or automatic gap repair is applied.
 Conduit geometry does not prove energized service. The public data does not
 provide the panel ratings, circuit loads, conductor information, or spare
 capacity required for a real capacity summary, so electrical capacity is not
