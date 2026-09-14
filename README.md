@@ -63,11 +63,11 @@ visual check of the normalized inventory and network interpretation.
 
 ![DNV network example](docs/images/dnv_trace_network_example.png)
 
-The gap exhibit focuses on a QA finding that matters when a repeatable trace
-is handed to an engineer. `LGTLT01611` and `LGTCON00377` appear connected at
-map scale, but their coordinates differ by 0.0486 m. The project reports this
-evidence and leaves the connectivity decision visible instead of silently
-snapping or modifying the source data.
+The close-up map shows a small gap that could affect whether two features are
+treated as connected. `LGTLT01611` and the end of `LGTCON00377` look connected
+on the map, but their recorded locations are 0.0486 m apart. We show the gap
+for review and keep the original data unchanged instead of moving features
+automatically.
 
 ![DNV conduit gap](docs/images/dnv_gap_LGTLT01611_LGTCON00377.png)
 
