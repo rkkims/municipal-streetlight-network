@@ -22,16 +22,4 @@ requirements are confirmed.
 | `geometry` | Mapped asset location or line geometry |
 
 Trace and QA results should remain linked by `municipality`, `network_id`, and
-source asset IDs rather than replacing the source inventory. The current
-project does not create a Zoho Creator connection or claim that these fields
-are AMC's final production schema.
-
-## Suggested handoff process
-
-1. Review the normalized GeoPackage and QA summary.
-2. Agree the destination field names and required fields with AMC.
-3. Export only the approved fields to the destination import format.
-4. Retain source IDs and provenance in the destination records.
-5. Load a small pilot set and reconcile record counts and identifiers.
-6. Record the import date, source version, and any rejected records.
-
+source asset IDs rather than replacing the source inventory.
