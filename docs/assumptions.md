@@ -1,4 +1,4 @@
-# Assumptions and decision guardrails
+# Assumptions and decisions
 
 No GIS or network assumptions have been adopted. Preserve raw data, make transformations reproducible, and prefer clarity over sophistication. Do not hide ambiguity through automatic cleaning.
 
@@ -14,5 +14,3 @@ Before selecting CRS, snapping tolerance, connectivity rules, line-crossing trea
 | Network ID normalization | DNV publishes `Network_Id`; Vancouver has no shared network ID | Derive IDs, leave null, or use geometry | Copy DNV values; leave Vancouver null; use DNV values only for the approved exploratory component rule | 2026-09-11 |
 | Provenance retention | Source fields differ substantially | Copy all fields, drop source detail, or keep a compact common schema with provenance | Keep common provenance fields and raw/interim source attributes; do not expand the common schema unnecessarily | 2026-09-11 |
 | Classification field | Vancouver layer names provide broad roles; DNV fittings have incomplete comments and undocumented `AM_Type` codes | Duplicate roles, infer subtypes, or keep classification nullable | Use `asset_type` for broad roles; populate nullable `classification` only from supported source descriptions | 2026-09-11 |
-
-Keep this project small. Do not automate QGIS or introduce infrastructure outside the application scope.
