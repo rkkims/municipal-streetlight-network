@@ -83,6 +83,7 @@ python scripts/run_trace.py
 ## Application materials
 
 - [Case study](docs/application-case-study.md)
+- [QGIS project](outputs/maps/dnv_trace_exhibit.qgz)
 - [Source inventory](docs/data-sources.md)
 - [Limitations](docs/limitations.md)
 - [Network model](docs/network-model.md)
