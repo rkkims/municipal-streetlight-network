@@ -64,7 +64,18 @@ inferred.
 
 ## Map exhibits
 
+The overview exhibit shows how a municipal reviewer can inspect a candidate
+network in QGIS: poles are classified by trace reachability, fittings are
+separate from poles, and conduit IDs remain visible for follow-up. It is a
+compact visual check of the normalized inventory and network interpretation.
+
 ![DNV network example](docs/images/dnv_trace_network_example.png)
+
+The gap exhibit focuses on a QA finding that matters when a repeatable trace
+is handed to an engineer. `LGTLT01611` and `LGTCON00377` appear connected at
+map scale, but their coordinates differ by 0.0486 m. The project reports this
+evidence and leaves the connectivity decision visible instead of silently
+snapping or repairing the source data.
 
 ![DNV conduit gap](docs/images/dnv_gap_LGTLT01611_LGTCON00377.png)
 
