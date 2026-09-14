@@ -10,4 +10,13 @@ No analysis has been performed. Follow the phases in [project-plan.md](project-p
 6. Run geometry and topology QA; record counts, denominators, exclusions and uncertainty.
 7. Package screenshots, reproduction steps and supported versus unsupported findings.
 
+## Municipality stopping points
+
+Vancouver is intentionally carried through acquisition, source inspection,
+normalization, and QA only. The inspected Vancouver exports do not contain a
+shared connectivity identifier, so network tracing is deferred until an
+evidence-supported rule or additional municipal records are available. DNV is
+used for the current trace demonstration because its source `Network_Id` and
+conduit geometry support an exploratory trace.
+
 Pending sections: verified acquisition commands; environment versions; approved transformations; graph/traversal rules; validation evidence; QA definitions and results. Do not report planned procedures as completed work.

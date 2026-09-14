@@ -1,3 +1,33 @@
-# Placeholder only. No source metadata or mappings have been verified.
-# Add reviewed source settings and mappings after inspection.
-{}
+# Example District of North Vancouver field mapping.
+# Add the remaining source layers and mappings using this structure.
+
+municipality: dnv
+source_crs: "EPSG:26910"
+
+layers:
+  - source_layer: LgtStreetLightPoles
+    source_path: data/raw/dnv/LgtStreetLightPoles_fgdb.zip
+    output_name: poles
+    asset_type: pole
+    fields:
+      source_asset_id: Asset_Id
+      source_global_id: GlobalID
+      network_id: Network_Id
+
+  - source_layer: LgtStreetLightConduit
+    source_path: data/raw/dnv/LgtStreetLightConduit_fgdb.zip
+    output_name: conduit
+    asset_type: conduit
+    fields:
+      source_asset_id: Asset_Id
+      source_global_id: GlobalID
+      network_id: Network_Id
+
+  - source_layer: LgtStreetLightFittings
+    source_path: data/raw/dnv/LgtStreetLightFittings_fgdb.zip
+    output_name: fittings
+    asset_type: network_fitting
+    fields:
+      source_asset_id: Asset_Id
+      source_global_id: GlobalID
+      network_id: Network_Id

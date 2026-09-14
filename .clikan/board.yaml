@@ -1,0 +1,334 @@
+data:
+  1:
+  - todo
+  - "READY: P0 \u2014 Source understanding: Inspect key attributes"
+  - 2026-Sep-10 18:16:41
+  - 2026-Sep-10 18:16:41
+  2:
+  - todo
+  - "READY: P0 \u2014 Source understanding: Inspect geometry types"
+  - 2026-Sep-10 18:16:42
+  - 2026-Sep-10 18:16:42
+  3:
+  - todo
+  - "READY: P0 \u2014 Source understanding: Inspect CRS"
+  - 2026-Sep-10 18:16:42
+  - 2026-Sep-10 18:16:42
+  4:
+  - todo
+  - "READY: P0 \u2014 Source understanding: Inspect file formats"
+  - 2026-Sep-10 18:16:42
+  - 2026-Sep-10 18:16:42
+  5:
+  - done
+  - "BACKLOG: P0 \u2014 Source understanding: Determine whether IDs encode connectivity"
+  - 2026-Sep-10 19:24:23
+  - 2026-Sep-10 18:16:42
+  6:
+  - done
+  - "BACKLOG: P0 \u2014 Source understanding: Determine whether conduit endpoints\
+    \ coincide with nodes"
+  - 2026-Sep-10 22:51:46
+  - 2026-Sep-10 18:16:42
+  7:
+  - done
+  - "BACKLOG: P0 \u2014 DNV network trace: Load DNV pole/conduit/fitting layers in\
+    \ QGIS"
+  - 2026-Sep-10 22:51:47
+  - 2026-Sep-10 18:16:43
+  8:
+  - done
+  - "BACKLOG: P0 \u2014 DNV network trace: Identify service-panel features"
+  - 2026-Sep-10 22:52:29
+  - 2026-Sep-10 18:16:43
+  9:
+  - done
+  - "BACKLOG: P0 \u2014 DNV network trace: Inspect actual topology visually"
+  - 2026-Sep-10 22:58:58
+  - 2026-Sep-10 18:16:43
+  10:
+  - inprogress
+  - "BACKLOG: P0 \u2014 DNV network trace: Measure endpoint gaps"
+  - 2026-Sep-10 22:58:59
+  - 2026-Sep-10 18:16:43
+  11:
+  - done
+  - "BACKLOG: P0 \u2014 DNV network trace: Define evidence-based connectivity rules"
+  - 2026-Sep-10 23:04:42
+  - 2026-Sep-10 18:16:44
+  12:
+  - inprogress
+  - "BACKLOG: P0 \u2014 DNV network trace: Build initial graph"
+  - 2026-Sep-10 23:04:43
+  - 2026-Sep-10 18:16:44
+  13:
+  - todo
+  - "BACKLOG: P0 \u2014 DNV network trace: Select one pole"
+  - 2026-Sep-10 18:16:44
+  - 2026-Sep-10 18:16:44
+  14:
+  - todo
+  - "BACKLOG: P0 \u2014 DNV network trace: Trace pole to service panel"
+  - 2026-Sep-10 18:16:44
+  - 2026-Sep-10 18:16:44
+  15:
+  - todo
+  - "BACKLOG: P0 \u2014 DNV network trace: Validate the trace visually in QGIS"
+  - 2026-Sep-10 18:16:45
+  - 2026-Sep-10 18:16:45
+  16:
+  - todo
+  - "BACKLOG: P0 \u2014 DNV network trace: Identify at least one broken or ambiguous\
+    \ trace"
+  - 2026-Sep-10 18:16:45
+  - 2026-Sep-10 18:16:45
+  17:
+  - todo
+  - "BACKLOG: P0 \u2014 DNV network trace: Document how the broken trace was handled"
+  - 2026-Sep-10 18:16:45
+  - 2026-Sep-10 18:16:45
+  18:
+  - todo
+  - "BACKLOG: P0 \u2014 Cross-municipality normalization: Compare Vancouver and DNV\
+    \ schemas"
+  - 2026-Sep-10 18:16:45
+  - 2026-Sep-10 18:16:45
+  19:
+  - todo
+  - "BACKLOG: P0 \u2014 Cross-municipality normalization: Define minimal common schema"
+  - 2026-Sep-10 18:16:46
+  - 2026-Sep-10 18:16:46
+  20:
+  - todo
+  - "BACKLOG: P0 \u2014 Cross-municipality normalization: Create municipality-specific\
+    \ config mappings"
+  - 2026-Sep-10 18:16:46
+  - 2026-Sep-10 18:16:46
+  21:
+  - todo
+  - "BACKLOG: P0 \u2014 Cross-municipality normalization: Implement normalized output"
+  - 2026-Sep-10 18:16:46
+  - 2026-Sep-10 18:16:46
+  22:
+  - todo
+  - "BACKLOG: P0 \u2014 Cross-municipality normalization: Preserve original source\
+    \ IDs"
+  - 2026-Sep-10 18:16:46
+  - 2026-Sep-10 18:16:46
+  23:
+  - todo
+  - "BACKLOG: P0 \u2014 Cross-municipality normalization: Preserve provenance/source\
+    \ information"
+  - 2026-Sep-10 18:16:47
+  - 2026-Sep-10 18:16:47
+  24:
+  - todo
+  - "BACKLOG: P0 \u2014 QA: Invalid geometry check"
+  - 2026-Sep-10 18:16:47
+  - 2026-Sep-10 18:16:47
+  25:
+  - todo
+  - "BACKLOG: P0 \u2014 QA: Duplicate identifier check"
+  - 2026-Sep-10 18:16:47
+  - 2026-Sep-10 18:16:47
+  26:
+  - todo
+  - "BACKLOG: P0 \u2014 QA: Missing geometry check"
+  - 2026-Sep-10 18:16:47
+  - 2026-Sep-10 18:16:47
+  27:
+  - todo
+  - "BACKLOG: P0 \u2014 QA: Dangling conduit endpoint check"
+  - 2026-Sep-10 18:16:48
+  - 2026-Sep-10 18:16:48
+  28:
+  - todo
+  - "BACKLOG: P0 \u2014 QA: Isolated-node check"
+  - 2026-Sep-10 18:16:48
+  - 2026-Sep-10 18:16:48
+  29:
+  - todo
+  - "BACKLOG: P0 \u2014 QA: Poles traceable to service panel"
+  - 2026-Sep-10 18:16:48
+  - 2026-Sep-10 18:16:48
+  30:
+  - todo
+  - "BACKLOG: P0 \u2014 QA: Ambiguous multi-panel trace check"
+  - 2026-Sep-10 18:16:48
+  - 2026-Sep-10 18:16:48
+  31:
+  - todo
+  - "BACKLOG: P0 \u2014 QA: Produce concise QA summary"
+  - 2026-Sep-10 18:16:49
+  - 2026-Sep-10 18:16:49
+  32:
+  - todo
+  - "BACKLOG: P0 \u2014 Application package: Produce one clean QGIS map screenshot"
+  - 2026-Sep-10 18:16:49
+  - 2026-Sep-10 18:16:49
+  33:
+  - todo
+  - "BACKLOG: P0 \u2014 Application package: Produce one highlighted network trace\
+    \ screenshot"
+  - 2026-Sep-10 18:16:49
+  - 2026-Sep-10 18:16:49
+  34:
+  - todo
+  - "BACKLOG: P0 \u2014 Application package: Finish README"
+  - 2026-Sep-10 18:16:49
+  - 2026-Sep-10 18:16:49
+  35:
+  - todo
+  - "BACKLOG: P0 \u2014 Application package: Write methodology"
+  - 2026-Sep-10 18:16:49
+  - 2026-Sep-10 18:16:49
+  36:
+  - todo
+  - "BACKLOG: P0 \u2014 Application package: Write limitations"
+  - 2026-Sep-10 18:16:50
+  - 2026-Sep-10 18:16:50
+  37:
+  - todo
+  - "BACKLOG: P0 \u2014 Application package: Document unavailable electrical information"
+  - 2026-Sep-10 18:16:50
+  - 2026-Sep-10 18:16:50
+  38:
+  - todo
+  - "BACKLOG: P0 \u2014 Application package: Add reproduction instructions"
+  - 2026-Sep-10 18:16:50
+  - 2026-Sep-10 18:16:50
+  39:
+  - todo
+  - "BACKLOG: P0 \u2014 Application package: Prepare resume project bullets"
+  - 2026-Sep-10 18:16:51
+  - 2026-Sep-10 18:16:51
+  40:
+  - todo
+  - "BACKLOG: P0 \u2014 Application package: Prepare short application message"
+  - 2026-Sep-10 18:16:51
+  - 2026-Sep-10 18:16:51
+  41:
+  - todo
+  - "BACKLOG: P0 \u2014 Application package: Final repo cleanup"
+  - 2026-Sep-10 18:16:51
+  - 2026-Sep-10 18:16:51
+  42:
+  - todo
+  - "BACKLOG: P0 \u2014 Application package: Apply"
+  - 2026-Sep-10 18:16:51
+  - 2026-Sep-10 18:16:51
+  43:
+  - todo
+  - "BACKLOG: P1 \u2014 Useful if time allows: Add Vancouver network trace"
+  - 2026-Sep-10 18:16:51
+  - 2026-Sep-10 18:16:51
+  44:
+  - todo
+  - "BACKLOG: P1 \u2014 Useful if time allows: Compare traceability between municipalities"
+  - 2026-Sep-10 18:16:52
+  - 2026-Sep-10 18:16:52
+  45:
+  - todo
+  - "BACKLOG: P1 \u2014 Useful if time allows: Export normalized GeoPackage"
+  - 2026-Sep-10 18:16:52
+  - 2026-Sep-10 18:16:52
+  46:
+  - todo
+  - "BACKLOG: P1 \u2014 Useful if time allows: Create small CSV QA summary"
+  - 2026-Sep-10 18:16:52
+  - 2026-Sep-10 18:16:52
+  47:
+  - todo
+  - "BACKLOG: P1 \u2014 Useful if time allows: Add simple automated tests"
+  - 2026-Sep-10 18:16:53
+  - 2026-Sep-10 18:16:53
+  48:
+  - todo
+  - "BACKLOG: P1 \u2014 Useful if time allows: Add one architecture diagram"
+  - 2026-Sep-10 18:16:53
+  - 2026-Sep-10 18:16:53
+  49:
+  - todo
+  - "BACKLOG: P1 \u2014 Useful if time allows: Add one network-model diagram"
+  - 2026-Sep-10 18:16:53
+  - 2026-Sep-10 18:16:53
+  50:
+  - todo
+  - "BACKLOG: P2 \u2014 Do not do before application: PostGIS"
+  - 2026-Sep-10 18:16:53
+  - 2026-Sep-10 18:16:53
+  51:
+  - todo
+  - "BACKLOG: P2 \u2014 Do not do before application: Docker"
+  - 2026-Sep-10 18:16:54
+  - 2026-Sep-10 18:16:54
+  52:
+  - todo
+  - "BACKLOG: P2 \u2014 Do not do before application: cloud deployment"
+  - 2026-Sep-10 18:16:54
+  - 2026-Sep-10 18:16:54
+  53:
+  - todo
+  - "BACKLOG: P2 \u2014 Do not do before application: web application"
+  - 2026-Sep-10 18:16:54
+  - 2026-Sep-10 18:16:54
+  54:
+  - todo
+  - "BACKLOG: P2 \u2014 Do not do before application: dashboard"
+  - 2026-Sep-10 18:16:54
+  - 2026-Sep-10 18:16:54
+  55:
+  - todo
+  - "BACKLOG: P2 \u2014 Do not do before application: API"
+  - 2026-Sep-10 18:16:55
+  - 2026-Sep-10 18:16:55
+  56:
+  - todo
+  - "BACKLOG: P2 \u2014 Do not do before application: advanced cartography"
+  - 2026-Sep-10 18:16:55
+  - 2026-Sep-10 18:16:55
+  57:
+  - todo
+  - "BACKLOG: P2 \u2014 Do not do before application: electrical load-flow analysis"
+  - 2026-Sep-10 18:16:55
+  - 2026-Sep-10 18:16:55
+  58:
+  - todo
+  - "BACKLOG: P2 \u2014 Do not do before application: structural-capacity modeling"
+  - 2026-Sep-10 18:16:55
+  - 2026-Sep-10 18:16:55
+  59:
+  - todo
+  - "BACKLOG: P2 \u2014 Do not do before application: large-scale optimization"
+  - 2026-Sep-10 18:16:56
+  - 2026-Sep-10 18:16:56
+  60:
+  - todo
+  - "BACKLOG: P2 \u2014 Do not do before application: second asset domain"
+  - 2026-Sep-10 18:16:56
+  - 2026-Sep-10 18:16:56
+  61:
+  - todo
+  - "BACKLOG: P2 \u2014 Do not do before application: additional municipalities"
+  - 2026-Sep-10 18:16:56
+  - 2026-Sep-10 18:16:56
+  62:
+  - done
+  - "DONE: P0 \u2014 Source understanding: Verify official Vancouver street-light\
+    \ datasets \u2014 [source evidence](data-sources.md)"
+  - 2026-Sep-10 18:16:57
+  - 2026-Sep-10 18:16:56
+  63:
+  - done
+  - "DONE: P0 \u2014 Source understanding: Verify official DNV street-light datasets\
+    \ \u2014 [source evidence](data-sources.md)"
+  - 2026-Sep-10 18:16:58
+  - 2026-Sep-10 18:16:57
+  64:
+  - done
+  - "DONE: P0 \u2014 Source understanding: Download one sample/source set from each\
+    \ municipality \u2014 five Vancouver GeoJSONs (EPSG:4326) and three DNV FGDB ZIPs;\
+    \ [acquisition ledger](data-sources.md#per-source-download-ledger)"
+  - 2026-Sep-10 18:16:58
+  - 2026-Sep-10 18:16:58
+deleted: {}

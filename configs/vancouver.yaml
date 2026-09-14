@@ -1,3 +1,32 @@
-# Placeholder only. No source metadata or mappings have been verified.
-# Add reviewed source settings and mappings after inspection.
-{}
+# Example Vancouver field mapping.
+# Add the remaining source layers and mappings using this structure.
+
+municipality: vancouver
+source_crs: "EPSG:4326"
+
+layers:
+  - source_layer: street-lighting-poles
+    source_path: data/raw/vancouver/street-lighting-poles.geojson
+    output_name: poles
+    asset_type: pole
+
+  - source_layer: street-lighting-abandoned-conduits
+    source_path: data/raw/vancouver/street-lighting-abandoned-conduits.geojson
+    output_name: abandoned_conduits
+    asset_type: conduit
+    status: abandoned
+
+  - source_layer: street-lighting-junction-boxes
+    source_path: data/raw/vancouver/street-lighting-junction-boxes.geojson
+    output_name: junction_boxes
+    asset_type: junction_box
+
+  - source_layer: street-lighting-service-panels
+    source_path: data/raw/vancouver/street-lighting-service-panels.geojson
+    output_name: service_panels
+    asset_type: service_panel
+
+  - source_layer: street-lighting-conduits
+    source_path: data/raw/vancouver/street-lighting-conduits.geojson
+    output_name: conduits
+    asset_type: conduit

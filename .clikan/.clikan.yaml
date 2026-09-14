@@ -1,0 +1,7 @@
+clikan_data: .clikan/board.yaml
+limits:
+  done: 100
+  taskname: 500
+  todo: 200
+  wip: 3
+repaint: false
